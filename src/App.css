@@ -1,8 +1,18 @@
 
-        body{
+        /* body{
             background-color: rgb(200, 163, 255);
+        } */
+        .login{
+            display: inline-block;
+            box-sizing: 100PX;
+            margin: 50px;
+            height: 350px;
+            width: 350px;
+            box-shadow: 0px 0px 5px 8px rgba(127,127,127,0.29);
+-webkit-box-shadow: 0px 0px 5px 8px rgba(127,127,127,0.29);
+-moz-box-shadow: 0px 0px 5px 8px rgba(127,127,127,0.29);
+
         }
-        
         .right_side{
             border-radius: 0px 20px 20px 0px;
             background-color: white;
