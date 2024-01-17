@@ -1,16 +1,19 @@
 
 import './App.css';
 import FirstPage from './Components/FirstPage';
-import Polling from './Components/Polling';
+import Login from './Components/Login';
+import SignUp from './Components/SignUp';
 import Voting from './Components/Voting';
 
 function App() {
   return (
     <div className="App">
-      
-        {/* <Voting/> */}
         <FirstPage/>
-        {/* <Polling/> */}
+        <SignUp/>
+        <Login/>
+        <Voting/>
+        
+
     </div>
   );
 }

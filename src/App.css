@@ -1,17 +1,63 @@
-
-        /* body{
-            background-color: rgb(200, 163, 255);
-        } */
-        .login{
-            display: inline-block;
-            box-sizing: 100PX;
+        .navu{
+            border-radius: 10px;
+            border: 1px solid black;
+        }.navu{
+            margin-top: 10px     ;
+        }
+        .signup{
+            border-radius: 20px;
+            height: 500px;
+            padding: 40px;
             margin: 50px;
-            height: 350px;
+            box-shadow: 0px 0px 5px 8px rgba(127,127,127,0.29);
+            -webkit-box-shadow: 0px 0px 5px 8px rgba(127,127,127,0.29);
+            -moz-box-shadow: 0px 0px 5px 8px rgba(127,127,127,0.29);
+            background: linear-gradient(148deg, rgba(0,34,255,1) 1%, rgba(96,96,255,1) 29%, rgba(171,222,253,1) 88%);
+        }
+        .login{
+            border-radius: 20px 20px 20px 20px;
+            background-color: rgb(255, 255, 255);
+            display: inline-block;
+           padding-top: 100PX;
+            box-sizing: 90PX;
+            margin: 40px; 
+            /* THIS MARGIN IS FOR SPACE BETWEEN 3 DIV BUTTONS */
+            height: 250px;
             width: 350px;
             box-shadow: 0px 0px 5px 8px rgba(127,127,127,0.29);
--webkit-box-shadow: 0px 0px 5px 8px rgba(127,127,127,0.29);
--moz-box-shadow: 0px 0px 5px 8px rgba(127,127,127,0.29);
-
+            -webkit-box-shadow: 0px 0px 5px 8px rgba(127,127,127,0.29);
+            -moz-box-shadow: 0px 0px 5px 8px rgba(127,127,127,0.29);
+            
+        }
+       .logoiono{
+        border-radius: 20px;
+        padding: 20px;
+        margin: 40px;
+        height: 600px;
+        box-shadow: 0px 0px 5px 8px rgba(127,127,127,0.29);
+            -webkit-box-shadow: 0px 0px 5px 8px rgba(127,127,127,0.29);
+            -moz-box-shadow: 0px 0px 5px 8px rgba(127,127,127,0.29);
+            background: linear-gradient(148deg, rgba(0,34,255,1) 1%, rgba(96,96,255,1) 29%, rgba(171,222,253,1) 88%);
+       }
+       .username{
+        margin-top: 5px;
+        margin: 20px;
+       }
+       .password{
+        margin: 20px;
+        margin-bottom: 70px;
+       }
+       h1{
+        margin: 100px;
+       }
+        .col-1{
+            border: 2px solid;
+        }
+        .buttonlogin{
+            margin: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+            text-align: center;
         }
         .right_side{
             border-radius: 0px 20px 20px 0px;
@@ -19,31 +65,21 @@
            
         }
         .col-6{
-            height: 1000px;
+            height: 700px;
             margin:50px;
             box-shadow: 0px 0px 5px 8px rgba(127,127,127,0.29);
 -webkit-box-shadow: 0px 0px 5px 8px rgba(127,127,127,0.29);
 -moz-box-shadow: 0px 0px 5px 8px rgba(127,127,127,0.29);
-            
-        }
-        .form_container{
-            padding-left: 30px;
-            padding-right: 30px;
-            margin-top: 100px;
-           
-        }
-        .form_container h3{
-            margin-bottom: 50px;
-        }
-        .form_container input{
-            margin: 10px;
+          
+          background: linear-gradient(148deg, rgba(0,34,255,1) 1%, rgba(96,96,255,1) 29%, rgba(171,222,253,1) 88%);
         }
         .form_col{
-            border-radius: 20px 0px 0px 20px;
+            border-radius: 20px 20px 20px 20px;
             background: rgb(168,0,255);
 background: linear-gradient(144deg, rgb(188, 60, 252) 1%, rgba(214,193,255,1) 43%, rgba(171,222,253,1) 88%);
         }
+       
         .col-6{
             padding: 20px;
-           
+           border-radius: 20px;
         }
